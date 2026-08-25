@@ -21,7 +21,6 @@ document.querySelector('#app').innerHTML = `
           <a class="button button-primary" href="#menu">Voir la carte <span>↘</span></a>
           <a class="text-link" href="#story">Découvrir UMU <span>→</span></a>
         </div>
-        <div class="hero-note"><strong>12:00 — 22:30</strong><span>·</span> Du mardi au dimanche</div>
       </div>
       <div class="hero-visual reveal">
         <img src="/img/samoa.png" alt="Spécialités et univers des Samoa" />
@@ -31,7 +30,7 @@ document.querySelector('#app').innerHTML = `
     <div class="ticker" aria-label="Plats UMU Street food"><div class="ticker-track"><span>PACIFIC STEAK</span><i>·</i><span>FIRE GRILLED CHICKEN</span><i>·</i><span>GRILLED MAHI-MAHI</span><i>·</i><span>COCONUT SHRIMP BASKET</span><i>·</i><span>RIZ À LA NOIX DE COCO</span><i>·</i><span>PATATES DOUCES RÔTIES</span><i>·</i><span>LÉGUMES GRILLÉS</span><i>·</i><span>TARO RÔTI</span><i>·</i><span aria-hidden="true">PACIFIC STEAK</span><i aria-hidden="true">·</i><span aria-hidden="true">FIRE GRILLED CHICKEN</span><i aria-hidden="true">·</i><span aria-hidden="true">GRILLED MAHI-MAHI</span><i aria-hidden="true">·</i><span aria-hidden="true">COCONUT SHRIMP BASKET</span><i aria-hidden="true">·</i><span aria-hidden="true">RIZ À LA NOIX DE COCO</span><i aria-hidden="true">·</i><span aria-hidden="true">PATATES DOUCES RÔTIES</span><i aria-hidden="true">·</i><span aria-hidden="true">LÉGUMES GRILLÉS</span><i aria-hidden="true">·</i><span aria-hidden="true">TARO RÔTI</span><i aria-hidden="true">·</i></div></div>
 
     <section id="menu" class="menu-section section-wrap">
-      <div class="section-heading"><div><p class="eyebrow hero-eyebrow"><span></span> Découvrez nos spécialités</p><h2>La carte <em>UMU Street Food</em></h2></div><a class="text-link" href="#order">Tout commander <span>→</span></a></div>
+      <div class="section-heading"><div><p class="eyebrow hero-eyebrow"><span></span> Découvrez nos spécialités</p><h2>La carte <em>UMU Street Food</em></h2></div></div>
       <div class="menu-category"><h3 class="category-title">Entrées</h3><div class="category-line"></div><div class="menu-grid">
         <article class="menu-item"><div class="item-image"><img src="/img/avaiki_salad.png" alt="Avaiki Salad" /></div><div class="item-info"><h3>Avaiki Salad</h3><p>Salade fraîche, mangue, avocat, concombre, tomates cerises et vinaigrette au fruit de la passion.</p><strong>9,50 €</strong></div></article>
         <article class="menu-item"><div class="item-image"><img src="/img/niu_slaw.png" alt="Niu Slaw" /></div><div class="item-info"><h3>Niu Slaw</h3><p>Salade croquante de chou, carottes, noix de coco râpée et vinaigrette au citron vert.</p><strong>8,50 €</strong></div></article>
