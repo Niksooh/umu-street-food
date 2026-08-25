@@ -27,24 +27,17 @@ body {
   min-width: 320px;
 }
 
-a {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: end;
-}
-
 .site-header,
 .section-wrap,
 footer {
-  grid-column: 1;
-  grid-row: 2;
-  align-self: start;
   width: min(1180px, calc(100% - 64px));
   margin: auto;
 }
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  align-self: center;
+
+a {
+  color: inherit;
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -69,12 +62,15 @@ footer {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 48px;
   font-size: 19px;
   font-weight: 700;
 }
 
 .main-nav a {
+  color: var(--orange);
+  text-decoration: none;
   transition: color .2s;
 }
 
