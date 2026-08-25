@@ -72,6 +72,10 @@ document.querySelector('#app').innerHTML = `
   <footer><a class="brand" href="#top"><img class="brand-logo" src="/umu-logo.png" alt="UMU street food" /></a><p>Du soleil dans chaque bouchée.</p><small>© 2026 UMU street food</small></footer>
 `
 
+document.querySelectorAll('img[src^="/"]').forEach((image) => {
+  image.src = `${import.meta.env.BASE_URL}${image.getAttribute('src').slice(1)}`
+})
+
 const menuToggle = document.querySelector('.menu-toggle')
 const nav = document.querySelector('.main-nav')
 menuToggle.addEventListener('click', () => {
